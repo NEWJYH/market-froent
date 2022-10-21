@@ -1,6 +1,9 @@
 import { DownloadOutlined } from "@ant-design/icons";
+import { Link, useHistory } from "react-router-dom";
+import { Button } from "antd";
 
 function HaderPage() {
+    const history = useHistory();
     return (
         <div id="header-area">
             <Link to="/">
